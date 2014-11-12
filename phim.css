@@ -1,0 +1,1049 @@
+/*
+**@author: Ken Nguyen
+**@phone number: 0975882458
+*/
+
+body{
+	overflow:hidden;
+}
+.clear{
+	clear:both;
+}
+.start{
+	margin-top:100px;
+	margin-left:100px;
+	padding:auto;
+	width:1200px;
+	height:640px;
+	font-size:40px;
+	color:#FE4427;
+}
+.start input[type='button']{
+	width:200px;
+	height:200px;
+	background:-webkit-radial-gradient(top, #79DFF1 , white);
+	background:-moz-radial-gradient(top, #79DFF1 , white);
+	margin-left:500px;
+	border: 1px solid #79DFF1;
+	border-radius:50%;
+}
+input[type='button']:hover{
+	cursor:pointer;
+}
+.fb{
+	width:30px;
+	height:30px;
+	position:fixed;
+	top:580px;
+	left:660px;
+	background: url(imgs/f.png);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+}
+.google{
+	width:30px;
+	height:30px;
+	position:fixed;
+	top:580px;
+	left:700px;
+	background: url(imgs/g.png);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+}
+.start a:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.daiphim-top{
+	background: url(imgs/daiphim-top.png);
+	width:1400px;
+	height:29px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:1000;
+}
+.daiphim-bottom{
+	background: url(imgs/daiphim-bottom.png);
+	width:1400px;
+	height:29px;
+	position:fixed;
+	top:96%;
+	left:0px;
+	z-index:1000;	
+}
+
+.hover_back{
+	width:2400px;
+	height:640px;
+	float:right;
+}
+
+.bo{
+	width:12000px;
+	height:640px;
+	position:relative;
+	-webkit-animation:chay ease 200s;
+	-moz-animation:chay ease 200s;
+		
+	margin-top:29px;
+	margin-bottom:29px;
+	margin-left:300px;
+}
+.video{
+	position: fixed;
+	width: 200px;
+	height:200px;
+	top:68%;
+	left:85%;
+	z-index:99999;
+	opacity:0.1;
+}
+.canh1{
+	position:relative;
+	width:1650px;
+	height: 640px;
+	background:white;
+	overflow: hidden;
+	float:left;
+	
+}
+.canh1 .problem{
+	margin-top:120px;
+	width:500px;
+	height: 500px;
+	float:left;
+	border-radius:50%;
+	position:relative;
+	left:30px;
+	-webkit-animation: top_down ease 1.6s;
+	-moz-animation: top_down ease 1.6s;
+}
+.king_sad{
+	z-index:10;
+	height: 600px;
+}
+img.bongden{
+	width:300px;
+	height:auto;
+	position:absolute;
+	top:-170px;
+	-webkit-animation: bongden_rotate ease 0.4s infinite;
+	-moz-animation: bongden_rotate ease 0.4s infinite;
+}
+.ask{
+	width:400px;
+	height:300px;
+	background-image:url(imgs/ask_small2.png);	
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:12;
+	top:60px;
+	left:300px;
+	-webkit-animation: ask ease 0.8s infinite;
+	-moz-animation: ask ease 0.8s infinite;
+}
+.ask2{
+	width:400px;
+	height:300px;
+	background-image:url(imgs/ask_small2.png);	
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:12;
+	top:100px;
+	left:260px;
+	-webkit-animation: ask ease 2s infinite;
+	-moz-animation: ask ease 2s infinite;
+}
+.month{
+	position:relative;
+	left:500px;
+	width:700px;
+	height:606px;
+	background: url('imgs/month.png') no-repeat;
+}
+.tien_roi1{
+	position:absolute;
+	width:200px;
+	height:120px;
+	z-index:15;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi ease 2.4s infinite;
+	-moz-animation: tien_roi ease 2.4s infinite;
+}
+.tien_roi2{
+	position:absolute;
+	left:250px;
+	width:200px;
+	height:120px;
+	z-index:13;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi ease 1.2s infinite;
+	-moz-animation: tien_roi ease 1.2s infinite;
+}
+.tien_roi3{
+	position:absolute;
+	left:450px;
+	width:200px;
+	height:120px;
+	z-index:14;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi ease 0.8s infinite;
+	-moz-animation: tien_roi ease 0.8s infinite;
+}
+.tien_khoc1{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:8;
+	top:80px;
+	left:50px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc2{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:8;
+	top:80px;
+	left:230px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc3{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:8;
+	top:80px;
+	left:410px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc4{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:80px;
+	left:550px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc5{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:280px;
+	left:50px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc6{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:280px;
+	left:230px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc7{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:280px;
+	left:410px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc8{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:8;
+	top:280px;
+	left:550px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc9{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:480px;
+	left:50px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc10{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:8;
+	top:480px;
+	left:230px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc11{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:480px;
+	left:410px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.tien_khoc12{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:10;
+	top:480px;
+	left:550px;
+	background: url(imgs/iconkhoc.gif) no-repeat;
+}
+.cant_food{
+	width:400px;
+	height:400px;
+	float:left;
+	position:relative;
+	top:-620px;
+	left:700px;
+}
+.food{
+	width:400px;
+	height:400px;
+	position:absolute;
+	padding-right:-100px;
+	border-radius:50%;
+	z-index:4;
+	background:url(imgs/babana_2.jpg) no-repeat;
+}
+.cant{	
+	width:400px;
+	height:400px;
+	position:absolute;
+	z-index:5;
+	background:url(imgs/cant.png) no-repeat;
+	-webkit-animation: showOne ease 0.4s infinite;
+	-moz-animation: showOne ease 0.4s infinite;
+}
+.bill_empty{
+	width:400px;
+	height:200px;
+	float:left;
+	position:relative;
+	top: -200px;
+	left: 320px;
+	background: url(imgs/bill.png) no-repeat;
+}
+
+.canh2{
+	position:relative;
+	width:1550px;
+	height: 640px;
+	float:left;
+	margin-left:50px;
+}
+.monkey_angry{
+	width:2000px;
+	height:640px;
+	float:left;
+}
+.angry{
+	width:200px;
+	height:200px;
+	float:left;
+	position:relative;
+}
+.angry2{
+	width:200px;
+	height:200px;
+	float:left;
+	position:relative;
+}
+.tucgian{
+	width:40px;
+	height:17px;
+	background: url(imgs/icon-giandu.gif) no-repeat;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	position:absolute;
+	top:100px;
+	left:80px;
+	z-index:4;
+}
+.khi_attack{
+	width:277px;
+	height:369px;
+	position:absolute;
+	background: url(imgs/monkey_attack.png) no-repeat;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	z-index:3;
+	-webkit-animation: len_xuong ease 0.8s infinite;
+	-moz-animation: len_xuong ease 0.8s infinite;
+}
+
+.kill{
+	width:900px;
+	height:100%;
+	float:left;
+	position:absolute;
+}
+.vien_dan{
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:150px;
+	left:200px;
+	background: url(imgs/dan_may.png) no-repeat;
+	z-index:7;
+	-webkit-animation: vien_dan1 ease 1.2s infinite;
+	-moz-animation: vien_dan1 ease 1.2s infinite;
+}
+.vien_dan2{
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:150px;
+	left:400px;
+	background: url(imgs/dan_may.png) no-repeat;
+	z-index:6;
+	-webkit-animation: vien_dan2 ease 1.2s infinite;
+	-moz-animation: vien_dan2 ease 1.2s infinite;
+}
+.vien_dan3{
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:150px;
+	left:400px;
+	background: url(imgs/dan_may.png) no-repeat;
+	z-index:6;
+	-webkit-animation: vien_dan2 ease 0.8s infinite;
+	-moz-animation: vien_dan2 ease 0.8s infinite;
+}
+.vien_dan4{
+	width:100px;
+	height:50px;
+	position:absolute;
+	top:150px;
+	left:400px;
+	background: url(imgs/dan_may.png) no-repeat;
+	z-index:6;
+	-webkit-animation: vien_dan2 ease 0.8s infinite;
+	-moz-animation: vien_dan2 ease 0.8s infinite;
+}
+.support{
+	width:600px;
+	height:640px;
+	float:left;
+	position:relative;
+	left:420px;
+}
+.khien{
+	width:400px;
+	height:440px;
+	float:left;
+	background: url(imgs/defender.png) no-repeat;
+	-webkit-animation: xoay_tron ease 0.1s infinite;
+	-moz-animation: xoay_tron ease 0.1s infinite;
+}
+.monkey_support{
+	width:400px;
+	height:640px;
+	position:relative;
+	left:200px;
+}
+.sp1{
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:150px;
+	left:100px;
+	z-index:4;
+	-webkit-animation: sp_nhay ease 0.3s infinite;	
+	-moz-animation: sp_nhay ease 0.3s infinite;	
+}
+.sp2{
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:0px;
+	left:100px;
+	opacity:0.6;
+	-webkit-animation: sp_nhay ease 0.2s infinite;	
+	-moz-animation: sp_nhay ease 0.2s infinite;	
+}
+.sp3{
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:0px;
+	left:200px;
+	-webkit-animation: sp_nhay ease 0.5s infinite;	
+	-moz-animation: sp_nhay ease 0.5s infinite;	
+}
+
+
+
+.canh3{
+	position:relative;
+	width:500px;
+	height: 640px;
+	float:left;
+}
+.worried{
+	width:500px;
+	height:400px;
+	background: url(imgs/king_sad.png);
+	position:absolute;
+	top:150px;
+}
+.lamsao{
+	position:absolute;
+	top:-60px;
+	left:100px;
+	color:red;
+	font: bold 60px Tahoma;
+}
+.canh4{
+	position:relative;
+	width:2150px;
+	height: 640px;
+	float:left;
+}
+.chungkhoan{
+	width:120ppx;
+	float:left;
+	height:640px;
+}
+.vang{
+	width:120ppx;
+	float:left;
+	height:640px;
+	margin-left:10px;
+}
+
+.html_nen{
+	width:600px;
+	height:640px;
+	float:left;
+	background:url(imgs/ck.png) no-repeat;
+	position:relative;
+}
+.khoc{
+	font: bold 90px Tahoma;
+	width: 150px;
+	height:640px;
+	float:left;
+	color:red;
+	padding-top:200px;
+}
+.divKhoc{
+	float:left;
+	width:143px;
+	height:504px;
+	margin-top:100px;
+	background:url(imgs/icon-khocto.gif);
+}
+.bai_vang{
+	width:800px;
+	height:640px;
+	float:left;
+	background:url(imgs/gold.jpg);
+	position:relative;
+}
+
+.canh5{
+	position:relative;
+	width:1250px;
+	height: 640px;
+	float:left;
+}
+.canh5 p{
+	font: bold 80px Tahoma;
+	color:red;
+	margin-top:200px;
+	width:100px;
+	float:left;
+	position:absolute;
+	left:-100px;
+	z-index:4;
+}
+.canh5 .donghoa{
+	width:1000px;
+	height:640px;
+	background:url(imgs/flowerfarm.jpg);
+	position:relative;
+	left:200px;
+}
+.donghoa>.tien_roi1{
+	position:absolute;
+	width:220px;
+	height:120px;
+	z-index:15;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi_vip ease 2.4s infinite;
+	-moz-animation: tien_roi_vip ease 2.4s infinite;
+}
+.donghoa>.tien_roi2{
+	position:absolute;
+	left:300px;
+	width:200px;
+	height:120px;
+	z-index:13;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi_vip ease 1.2s infinite;
+	-moz-animation: tien_roi_vip ease 1.2s infinite;
+}
+.donghoa>.tien_roi3{
+	position:absolute;
+	left:550px;
+	width:200px;
+	height:120px;
+	z-index:14;
+	background: url(imgs/dollar.png) no-repeat;
+	-webkit-animation: tien_roi_vip ease 0.8s infinite;
+	-moz-animation: tien_roi_vip ease 0.8s infinite;
+}
+.dongtien1{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:230px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 7.6s infinite;
+	-moz-animation: tien_bay ease 7.6s infinite;
+}
+.dongtien2{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:330px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 4s infinite;
+	-moz-animation: tien_bay ease 4s infinite;
+}
+.dongtien3{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:420px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 2s infinite;
+	-moz-animation: tien_bay ease 2s infinite;
+}
+.dongtien4{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:600px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 1.2s infinite;
+	-moz-animation: tien_bay ease 1.2s infinite;
+}
+.dongtien5{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:780px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 4.8s infinite;
+	-moz-animation: tien_bay ease 4.8s infinite;
+}
+.dongtien6{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:900px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 8s infinite;
+	-moz-animation: tien_bay ease 8s infinite;
+}
+.dongtien7{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:16;
+	top:600px;
+	left:1000px;
+	background: url(imgs/bitcoin.png);
+	-webkit-animation: tien_bay ease 6s infinite;
+	-moz-animation: tien_bay ease 6s infinite;
+}
+.canh6{
+	position:relative;
+	width:950px;
+	height: 640px;
+	float:left;
+}
+.hoa_len_xe{
+	position:relative;
+	width:800px;
+	height: 320px;
+	float:left;
+	border-bottom:1px solid green;
+}
+.hoa{
+	position:absolute;
+	z-index:4;
+	width:400px;
+	height:320px;
+	background:url(imgs/hoacuc.png) no-repeat;
+	border-radius: 50%;
+	top:-100px;
+	-webkit-animation: export_hoa ease 5s infinite;
+}
+.xe{
+	width:400px;
+	height:320px;
+	float:right;
+	margin-top:50px;
+	background:url(imgs/xe.png) no-repeat;
+	
+}
+.maybay_ex{
+	position:relative;
+	width:800px;
+	height: 320px;
+	top:320px;
+}
+.may_bay{
+	position:absolute;
+	z-index:4;
+	top: 150px;
+	width: 310px;
+	height: 140px;
+	background: url(imgs/maybay.png) no-repeat;
+	-webkit-animation: export ease 40s infinite;
+}
+.europe{
+	position:absolute;
+	width: 300px;
+	height: 240px;
+	background: url(imgs/europe.png) no-repeat;
+	position:absolute;
+	top:10px;
+	left:500px;
+}
+.canh7{
+	position:relative;
+	width:600px;
+	height: 640px;
+	float:left;
+}
+.vua_nhay{
+	position:absolute;
+	width:256px;
+	height:256px;
+	background: url(imgs/king_smile.gif);
+	z-index:10;
+	top:200px;
+	-webkit-animation: vua_nhay ease 0.4s infinite;
+	-moz-animation: vua_nhay ease 0.4s infinite;
+}
+.phao_hoa{
+	position:absolute;
+	width:800px;
+	height:640px;
+	background: url(imgs/happy.gif);
+	-webkit-transform: scale(1);
+	top:00px;
+	left:00px;
+}
+.khi_nhay{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background: url(imgs/khi.gif);
+	z-index:10;
+	top:350px;
+	left:200px;
+}
+
+.khi_nhay1{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background: url(imgs/khi1.gif);
+	z-index:10;
+	top:350px;
+	left:280px;
+}
+.khi_nhay2{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background: url(imgs/khi2.gif);
+	z-index:10;
+	top:350px;
+	left:350px;
+}
+.khi_nhay3{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background: url(imgs/khi3.gif);
+	z-index:10;
+	top:350px;
+	left:420px;
+}
+
+
+@-moz-keyframes chay{
+	0% {left:0;}
+	100%{left:-12000px;}
+}
+@-webkit-keyframes chay{
+	0% {left:0;}
+	100%{left:-12000px;}
+}
+@-moz-keyframes bongden_rotate{
+	0%{-webkit-transform: rotate(0deg);}
+	50%{-webkit-transform: rotateZ(-10deg); 
+		-moz-transform: rotateZ(-10deg); 
+		-webkit-transform: skew(50%,50%);
+		-moz-transform: skew(50%,50%);
+		-webkit-transform-origin: -50px -20px;
+		-moz-transform-origin: -50px -20px;
+		
+		}
+	100%{-webkit-transform: rotate(-10deg);}
+}
+@-webkit-keyframes bongden_rotate{
+	0%{-webkit-transform: rotate(0deg);}
+	50%{-webkit-transform: rotateZ(-10deg); 
+		-moz-transform: rotateZ(-10deg); 
+		-webkit-transform: skew(50%,50%);
+		-moz-transform: skew(50%,50%);
+		-webkit-transform-origin: -50px -20px;
+		-moz-transform-origin: -50px -20px;
+		
+		}
+	100%{-webkit-transform: rotate(-10deg);}
+}
+@-moz-keyframes ask{
+	0%{-webkit-transform: scale(0.5);
+		-moz-transform: scale(0.5);}
+	100%{-webkit-transform: scale(2);
+		-moz-transform: scale(2);}
+}
+@-webkit-keyframes ask{
+	0%{-webkit-transform: scale(0.5);
+		-moz-transform: scale(0.5);}
+	100%{-webkit-transform: scale(2);
+		-moz-transform: scale(2);}
+}
+@-moz-keyframes tien_roi{
+	0%{top:0px;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	50%{top:200px;
+		background: url(imgs/dollar1.png) no-repeat;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	70%{top:200px;
+		background: url(imgs/dollar2.png) no-repeat;
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);}
+	100%{top:400px;
+		background: url(imgs/dollar2.png) no-repeat;
+		-webkit-transform: scale(0.2);
+		-moz-transform: scale(0.2);}
+}
+@-webkit-keyframes tien_roi{
+	0%{top:0px;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	50%{top:200px;
+		background: url(imgs/dollar1.png) no-repeat;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	70%{top:200px;
+		background: url(imgs/dollar2.png) no-repeat;
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);}
+	100%{top:400px;
+		background: url(imgs/dollar2.png) no-repeat;
+		-webkit-transform: scale(0.2);
+		-moz-transform: scale(0.2);}
+}
+
+@-moz-keyframes showOne{
+	0%{opacity:0;}
+	50%{opacity:1;}
+	100%{opacity:0;}
+}
+@-webkit-keyframes showOne{
+	0%{opacity:0;}
+	50%{opacity:1;}
+	100%{opacity:0;}
+}
+@-moz-keyframes top_down{
+	0%{top:-200px;}
+	100%{top:50px;}
+}
+@-webkit-keyframes top_down{
+	0%{top:-200px;}
+	100%{top:50px;}
+}
+@-moz-keyframes len_xuong{
+	0%{top:-20px;}
+	100%{top:10px;}
+}
+@-webkit-keyframes len_xuong{
+	0%{top:-20px;}
+	100%{top:10px;}
+}
+@-moz-keyframes sp_nhay{
+	0%{-moz-transform: translateY(0px);}
+	50%{-moz-transform: translateY(20px);}
+	100%{-moz-transform: translateY(0px);}
+}
+@-webkit-keyframes sp_nhay{
+	0%{-webkit-transform: translateY(0px);}
+	50%{-webkit-transform: translateY(20px);}
+	100%{-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes vien_dan2{
+	0%{top:160px;
+		left:400px;}
+	90%{
+		top:150px;
+		left:800px;
+		-moz-transform: scale(1);}
+	100%{
+		top:250px;
+		left:800px;
+		-moz-transform: scale(0.1);}
+}
+@-webkit-keyframes vien_dan2{
+	0%{top:160px;
+		left:400px;}
+	90%{
+		top:150px;
+		left:800px;
+		-webkit-transform: scale(1);}
+	100%{
+		top:250px;
+		left:800px;
+		-webkit-transform: scale(0.1);}
+}
+@-moz-keyframes vien_dan1{
+	0%{top:160px;
+		left:230px;}
+	95%{
+		top:150px;
+		left:870px;
+		-moz-transform: scale(1);}
+	100%{
+		top:250px;
+		left:870px;
+		-moz-transform: scale(0.4);}
+}
+@-webkit-keyframes vien_dan1{
+	0%{top:160px;
+		left:230px;}
+	95%{
+		top:150px;
+		left:870px;
+		-webkit-transform: scale(1);}
+	100%{
+		top:250px;
+		left:870px;
+		-webkit-transform: scale(0.4);}
+}
+@-moz-keyframes xoay_tron{
+	0%{-moz-transform: rotateY(50deg);
+		opacity:0;}
+	100%{opacity:1;}
+	
+}
+@-webkit-keyframes xoay_tron{
+	0%{-webkit-transform: rotateY(50deg);
+		opacity:0;}
+	100%{opacity:1;}
+	
+}
+@-webkit-keyframes tien_roi_vip{
+	0%{top:0px;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	50%{top:200px;
+		background: url(imgs/dollar1.png) no-repeat;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);}
+	70%{top:200px;
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);}
+	100%{top:400px;
+		background: url(imgs/dollar.png) no-repeat;
+		-webkit-transform: scale(2);
+		-moz-transform: scale(2);}
+}
+@-webkit-keyframes tien_bay{
+	0%{-webkit-transform: rotateY(0deg);}
+	66%{-webkit-transform: rotateY(180deg);
+		top:250px;}
+	100%{-webkit-transform: rotateY(360deg);
+		top:-100px;
+		-webkit-transform: scale(1.5);}
+}
+@-moz-keyframes tien_bay{
+	0%{-moz-transform: rotateY(0deg);}
+	66%{-moz-transform: rotateY(360deg);
+		top:250px;}
+	100%{-moz-transform: rotateY(-360deg);
+		top:-100px;
+		-moz-transform: scale(1.5);}
+}
+@-webkit-keyframes export{
+	0%{left:0;}
+	100%{left:500px;
+		top:-70px;}
+}
+@-moz-keyframes export{
+	0%{left:0;}
+	100%{left:500px;
+		top:-70px;}
+}
+@-webkit-keyframes export_hoa{
+	0%{left:0;}
+	90%{left:470px;
+		-webkit-transform: scale(0.6);}
+	100%{left:480px;
+		-webkit-transform: scale(0.2);}
+}
+@-moz-keyframes export_hoa{
+	0%{left:0;}
+	95%{left:470px;
+		-moz-transform: scale(0.6);
+		top:-30px;}
+	100%{left:480px;
+		-moz-transform: scale(0.2);}
+}
+@-webkit-keyframes vua_nhay{
+	0%{top:200px;}
+	50%{top:220px;}
+	100%{top:200px;}
+	
+}
+@-moz-keyframes vua_nhay{
+	0%{top:200px;}
+	50%{top:220px;}
+	100%{top:200px;}
+	
+}
+/* -webkit-animation-interation-count: infinite;
