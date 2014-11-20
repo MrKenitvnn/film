@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	//change
 	var $bo = $('.bo');
 	var $start = $(".start input[type='button']");
 	var $divStart = $(".start");
